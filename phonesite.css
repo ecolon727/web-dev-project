@@ -1,0 +1,178 @@
+p {
+  font-family: Arial;
+}
+
+body {
+  margin: 0;
+}
+
+.heading {
+  background-color: black;
+  color: rgb(255,164,128);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.repair-text {
+  transition: opacity 0.1s;
+  margin-right: 40px;
+}
+
+.repair-text:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+.clean-text {
+  transition: opacity 0.1s;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.clean-text:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+.contact-text {
+  transition: opacity 0.1s;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contact-text:hover {
+  text-decoration: underline;
+  opacity: 0.7
+}
+
+.slide-text {      
+  transition: color 0.15s, 
+  text-decoration 0.15s,
+  opacity 0.15s;
+}
+
+.slide-text:hover {
+  color: rgb(255,164,128);
+  text-decoration: underline;
+}
+
+.slide-text:active { 
+  color: rgb(120, 53, 27);
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.user-info {
+  background-color: black;
+  color: rgb(255,164,128);
+}
+
+.website-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.website-subtitle {
+  font-size: 24px;
+  margin-top: 5px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.website-paragraph {
+  background-color: white;
+  width: 180px;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+
+}
+
+.image-box {
+  display: inline-block;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.phone-image{
+  width: 100%;
+  object-fit: contain;
+}
+
+.phones-grid{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  column-gap: 20px;
+}
+
+.name-bar,
+.phone-bar,
+.email-bar{
+  font-size: 17px;
+  width: 300px;
+  border-radius: 10px;
+  display: block;
+}
+
+.name-bar{
+  margin-top: 20px;
+}
+
+.phone-bar,
+.email-bar{
+  margin-top: 5px;
+}
+
+.name-text,
+.phone-text,
+.email-text{
+  color: rgb(255,164,128);
+  font-size: 22px;
+}
+
+.name-text{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.phone-text{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.email-text{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.footer{
+  background-color: black;
+  display: flex;
+}
+
+.footer-sign{
+  color: rgb(255,164,128);
+  font-size: 24px;
+  width: 170px;
+  margin-left: 200px;
+  text-align: center;
+}
+
+.footer-text{
+  vertical-align: top;
+}
+
+.left-section{
+  display: flex;
+  flex: 1;
+  margin-right: 50px;
+}
+
+.middle-section{
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+}
