@@ -1,78 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <link rel="stylesheet" href="phonesite.css">
+    <link rel="stylesheet" href="zlider.css">
     <title>Manny's Phone Repair</title>
   </head>
   
   <body>
 
-    <p class="heading">
-      <span class="repair-text">
-        Repairs
-      </span>
-        |
-      <span class="clean-text">
-        Cleaning
-      </span>
-        |
-      <span class="contact-text">
-        Contact
-      </span>
-    </p>
+    <div class="heading">
+      <p class="heading-text">
+        <span class="repair-text">
+          Repairs
+        </span>
+          |
+        <span class="clean-text">
+          Cleaning
+        </span>
+          |
+        <span class="contact-text">
+          Contact
+        </span>
+      </p>
+    </div>
+
+
+    <div class="side-bar"> 
+      <div class="wood-div">
+        <img class="wood-pic" src="wood.jpg">
+      </div>
+      <div class="desc-div">
+        <p class="website-paragraph">
+          I repair all brands of phones!  
+          Whether old or new, 
+          I have the tools necessary to fix and clean any phone!   
+          any internal, external repair needed is fully welcome!          
+          Get your phone cleaned out and fixed today!
+        </p>
+      </div> 
+    </div>
 
 
     <p class="website-title">
       Manny's Phone Repair
     </p>
-
     <p class="website-subtitle">
       and cleaning services
     </p>
 
 
-    <div class="phones-grid">
-      <div class="image-box">
-
-        <img class="phone-image" src="iphone-pink.webp"> 
-          <p>
-            iPhones
-          </p>  
-        </div>
-    
-        <div class="image-box">
-    
-          <img class="phone-image" src="samsung-green.webp">      
-            <p>
-              Samsung
-            </p>     
-        </div>
-    
-        <div class="image-box">
-    
-          <img class="phone-image" src="xiaomi-blue.jpg">       
-            <p>
-               Xiamoi
-            </p>       
-        </div>
-    
-        <div class="image-box">
-    
-          <img class="phone-image" src="pixel-purple.jpg">         
-            <p>
-             Google Pixel
-            </p>         
-        </div>
-    
-        <div class="image-box">
-    
-          <img class="phone-image" src="xperia.jpg">          
-            <p>
-             Xperia
-             </p>           
-        </div>
-
+    <div class="slider">
+      <div class="slides">
+        <img class="slide" src="iphone-pink.webp" alt="iphone">
+        <img class="slide" src="samsung-green.webp" alt="samsung">
+        <img class="slide" src="xperia.jpg" alt="xperia">
+        <img class="slide" src="xiaomi-blue.jpg" alt="xiaomi">
+        <img class="slide" src="pixel-purple.jpg" alt="g-pixel"> 
+      </div>
+      <button class="prev" onClick="prevSlide()" >&#10094</button>
+      <button class="next" onClick="nextSlide()" >&#10095</button>
     </div>
+
+    <script src="zlider.js"></script>
 
     
     <p class="slide-text">
@@ -80,36 +69,16 @@
     </p>
 
 
-    <div class="paragraph-box">
-
-      <p class="website-paragraph">
-        I repair all brands of phones!
-  
-        Whether old or new, 
-        I have the tools necessary to fix and clean any phone!
-  
-        any internal, external repair needed is fully welcome!
-        
-        Get your phone cleaned out and fixed today!
-      </p>
-
-    </div>
-
-
     <div class="footer">
-
-      <div class="left-section">
-        
+      <div class="left-section">        
         <p class="footer-sign">
-          Please Sign in to discuss these services
+          Please sign in to discuss these services
         </p>
       </div>
 
 
       <div class="middle-section">
-
         <div class="footer-enter-text">
-
           <p class="name-text">
             Full Name:
           </p>
@@ -121,18 +90,13 @@
           </p>
         </div>
 
-
         <div class="footer-enter-box">
-        <input class="name-bar" type="textbox" placeholder="name">
-        <input class="phone-bar" type="textbox" placeholder="phone">
-        <input class="email-bar" type="textbox" placeholder="email">
+        <input class="name-bar" type="textbox">
+        <input class="phone-bar" type="textbox">
+        <input class="email-bar" type="textbox">
         </div>
-        
+       
       </div>
-
     </div>
-
-
   </body>
-
 </html>
